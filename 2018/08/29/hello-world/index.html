@@ -288,7 +288,7 @@
   <!-- Valine Comments script -->
   <script>
       var GUEST_INFO = ['nick','mail','link'];
-      var guest_info = 'nick,mail,site'.split(',').filter(function(item){
+      var guest_info = 'nick,mail'.split(',').filter(function(item){
         return GUEST_INFO.indexOf(item) > -1
       });
       new Valine({
@@ -296,11 +296,11 @@
           notify: 'false' == 'true',
           verify: 'false' == 'true',
           appId: "pk6suYiVwCy0IqtB9HVb5X7O-gzGzoHsz",
-          appKey: "",
+          appKey: "xQ2RJL0MGWl6HlyfRoAQQS70",
           avatar: "mm",
-          placeholder: "let&#39;s go!",
+          placeholder: "Just go go",
           guest_info: guest_info.length == 0 ? GUEST_INFO : guest_info,
-          pageSize: ""
+          pageSize: "10"
       })
   </script>
   <!-- Valine Comments end -->
